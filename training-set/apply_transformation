@@ -1,0 +1,46 @@
+#!/bin/bash
+export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
+
+
+#mkdir ./registration-results/transformed_labels/1001
+mkdir ./registration-results/transformed_labels/1002
+mkdir ./registration-results/transformed_labels/1006
+mkdir ./registration-results/transformed_labels/1007
+mkdir ./registration-results/transformed_labels/1008
+mkdir ./registration-results/transformed_labels/1009
+mkdir ./registration-results/transformed_labels/1010
+mkdir ./registration-results/transformed_labels/1011
+mkdir ./registration-results/transformed_labels/1012
+mkdir ./registration-results/transformed_labels/1013
+mkdir ./registration-results/transformed_labels/1014
+mkdir ./registration-results/transformed_labels/1015
+mkdir ./registration-results/transformed_labels/1017
+mkdir ./registration-results/transformed_labels/1036
+
+#transformix -in ./training-labels/1001_3C.nii.gz -out ./registration-results/transformed_labels/1001 -tp ./registration-results/affine+bspline/1001/TransformParameters.1.txt
+
+transformix -in ./training-labels/1002_3C.nii.gz -out ./registration-results/transformed_labels/1002 -tp ./registration-results/affine+bspline/1002/TransformParameters.1.txt
+
+transformix -in ./training-labels/1006_3C.nii.gz -out ./registration-results/transformed_labels/1006 -tp ./registration-results/affine+bspline/1006/TransformParameters.1.txt
+
+transformix -in ./training-labels/1007_3C.nii.gz -out ./registration-results/transformed_labels/1007 -tp ./registration-results/affine+bspline/1007/TransformParameters.1.txt
+
+transformix -in ./training-labels/1008_3C.nii.gz -out ./registration-results/transformed_labels/1008 -tp ./registration-results/affine+bspline/1008/TransformParameters.1.txt
+
+transformix -in ./training-labels/1009_3C.nii.gz -out ./registration-results/transformed_labels/1009 -tp ./registration-results/affine+bspline/1009/TransformParameters.1.txt
+
+transformix -in ./training-labels/1010_3C.nii.gz -out ./registration-results/transformed_labels/1010 -tp ./registration-results/affine+bspline/1010/TransformParameters.1.txt
+
+transformix -in ./training-labels/1011_3C.nii.gz -out ./registration-results/transformed_labels/1011 -tp ./registration-results/affine+bspline/1011/TransformParameters.1.txt
+
+transformix -in ./training-labels/1012_3C.nii.gz -out ./registration-results/transformed_labels/1012 -tp ./registration-results/affine+bspline/1012/TransformParameters.1.txt
+
+transformix -in ./training-labels/1013_3C.nii.gz -out ./registration-results/transformed_labels/1013 -tp ./registration-results/affine+bspline/1013/TransformParameters.1.txt
+
+transformix -in ./training-labels/1014_3C.nii.gz -out ./registration-results/transformed_labels/1014 -tp ./registration-results/affine+bspline/1014/TransformParameters.1.txt
+
+transformix -in ./training-labels/1015_3C.nii.gz -out ./registration-results/transformed_labels/1015 -tp ./registration-results/affine+bspline/1015/TransformParameters.1.txt
+
+transformix -in ./training-labels/1017_3C.nii.gz -out ./registration-results/transformed_labels/1017 -tp ./registration-results/affine+bspline/1017/TransformParameters.1.txt
+
+transformix -in ./training-labels/1036_3C.nii.gz -out ./registration-results/transformed_labels/1036 -tp ./registration-results/affine+bspline/1036/TransformParameters.1.txt

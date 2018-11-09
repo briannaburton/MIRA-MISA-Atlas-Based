@@ -1,0 +1,40 @@
+#!/bin/bash
+export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
+
+
+mkdir ./registration-results/affine+bspline/1006
+mkdir ./registration-results/affine+bspline/1007
+mkdir ./registration-results/affine+bspline/1008
+mkdir ./registration-results/affine+bspline/1009
+mkdir ./registration-results/affine+bspline/1010
+mkdir ./registration-results/affine+bspline/1011
+mkdir ./registration-results/affine+bspline/1012
+mkdir ./registration-results/affine+bspline/1013
+mkdir ./registration-results/affine+bspline/1014
+mkdir ./registration-results/affine+bspline/1015
+mkdir ./registration-results/affine+bspline/1017
+mkdir ./registration-results/affine+bspline/1036
+
+elastix -f 1000.nii.gz -m ./training-images/1006.nii.gz -out ./registration-results/affine+bspline/1006 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1007.nii.gz -out ./registration-results/affine+bspline/1007 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1008.nii.gz -out ./registration-results/affine+bspline/1008 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1009.nii.gz -out ./registration-results/affine+bspline/1009 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1010.nii.gz -out ./registration-results/affine+bspline/1010 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1011.nii.gz -out ./registration-results/affine+bspline/1011 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1012.nii.gz -out ./registration-results/affine+bspline/1012 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1013.nii.gz -out ./registration-results/affine+bspline/1013 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1014.nii.gz -out ./registration-results/affine+bspline/1014 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1015.nii.gz -out ./registration-results/affine+bspline/1015 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1017.nii.gz -out ./registration-results/affine+bspline/1017 -p par0000affine.txt -p par0000bspline.txt
+
+elastix -f 1000.nii.gz -m ./training-images/1036.nii.gz -out ./registration-results/affine+bspline/1036 -p par0000affine.txt -p par0000bspline.txt
