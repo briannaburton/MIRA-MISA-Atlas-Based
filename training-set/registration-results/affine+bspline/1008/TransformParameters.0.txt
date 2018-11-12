@@ -21,7 +21,7 @@
 
 // ResampleInterpolator specific
 (ResampleInterpolator "FinalBSplineInterpolator")
-(FinalBSplineInterpolationOrder 3)
+(FinalBSplineInterpolationOrder 0)
 
 // Resampler specific
 (Resampler "DefaultResampler")
