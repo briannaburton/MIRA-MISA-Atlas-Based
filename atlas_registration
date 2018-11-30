@@ -1,0 +1,66 @@
+#!/bin/bash
+#export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
+
+# register our atlases 
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1113/csf -tp ./test-set/registration-results/affine+bspline/1113/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1110/csf -tp ./test-set/registration-results/affine+bspline/1110/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1039/csf -tp ./test-set/registration-results/affine+bspline/1039/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1005/csf -tp ./test-set/registration-results/affine+bspline/1005/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1025/csf -tp ./test-set/registration-results/affine+bspline/1025/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1122/csf -tp ./test-set/registration-results/affine+bspline/1122/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1119/csf -tp ./test-set/registration-results/affine+bspline/1119/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1128/csf -tp ./test-set/registration-results/affine+bspline/1128/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1023/csf -tp ./test-set/registration-results/affine+bspline/1023/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1003/csf -tp ./test-set/registration-results/affine+bspline/1003/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1101/csf -tp ./test-set/registration-results/affine+bspline/1101/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1024/csf -tp ./test-set/registration-results/affine+bspline/1024/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1019/csf -tp ./test-set/registration-results/affine+bspline/1019/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1038/csf -tp ./test-set/registration-results/affine+bspline/1038/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1018/csf -tp ./test-set/registration-results/affine+bspline/1018/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1004/csf -tp ./test-set/registration-results/affine+bspline/1004/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1116/csf -tp ./test-set/registration-results/affine+bspline/1116/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1104/csf -tp ./test-set/registration-results/affine+bspline/1104/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1125/csf -tp ./test-set/registration-results/affine+bspline/1125/TransformParameters.1.txt
+transformix -in ./our_atlas/CSF_probs.nii -out ./test-set/registration-results/our_atlases/1107/csf -tp ./test-set/registration-results/affine+bspline/1107/TransformParameters.1.txt
+
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1113/gm -tp ./test-set/registration-results/affine+bspline/1113/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1110/gm -tp ./test-set/registration-results/affine+bspline/1110/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1039/gm -tp ./test-set/registration-results/affine+bspline/1039/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1005/gm -tp ./test-set/registration-results/affine+bspline/1005/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1025/gm -tp ./test-set/registration-results/affine+bspline/1025/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1122/gm -tp ./test-set/registration-results/affine+bspline/1122/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1119/gm -tp ./test-set/registration-results/affine+bspline/1119/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1128/gm -tp ./test-set/registration-results/affine+bspline/1128/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1023/gm -tp ./test-set/registration-results/affine+bspline/1023/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1003/gm -tp ./test-set/registration-results/affine+bspline/1003/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1101/gm -tp ./test-set/registration-results/affine+bspline/1101/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1024/gm -tp ./test-set/registration-results/affine+bspline/1024/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1019/gm -tp ./test-set/registration-results/affine+bspline/1019/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1038/gm -tp ./test-set/registration-results/affine+bspline/1038/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1018/gm -tp ./test-set/registration-results/affine+bspline/1018/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1004/gm -tp ./test-set/registration-results/affine+bspline/1004/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1116/gm -tp ./test-set/registration-results/affine+bspline/1116/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1104/gm -tp ./test-set/registration-results/affine+bspline/1104/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1125/gm -tp ./test-set/registration-results/affine+bspline/1125/TransformParameters.1.txt
+transformix -in ./our_atlas/GM_probs.nii -out ./test-set/registration-results/our_atlases/1107/gm -tp ./test-set/registration-results/affine+bspline/1107/TransformParameters.1.txt
+
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1113/wm -tp ./test-set/registration-results/affine+bspline/1113/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1110/wm -tp ./test-set/registration-results/affine+bspline/1110/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1039/wm -tp ./test-set/registration-results/affine+bspline/1039/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1005/wm -tp ./test-set/registration-results/affine+bspline/1005/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1025/wm -tp ./test-set/registration-results/affine+bspline/1025/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1122/wm -tp ./test-set/registration-results/affine+bspline/1122/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1119/wm -tp ./test-set/registration-results/affine+bspline/1119/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1128/wm -tp ./test-set/registration-results/affine+bspline/1128/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1023/wm -tp ./test-set/registration-results/affine+bspline/1023/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1003/wm -tp ./test-set/registration-results/affine+bspline/1003/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1101/wm -tp ./test-set/registration-results/affine+bspline/1101/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1024/wm -tp ./test-set/registration-results/affine+bspline/1024/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1019/wm -tp ./test-set/registration-results/affine+bspline/1019/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1038/wm -tp ./test-set/registration-results/affine+bspline/1038/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1018/wm -tp ./test-set/registration-results/affine+bspline/1018/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1004/wm -tp ./test-set/registration-results/affine+bspline/1004/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1116/wm -tp ./test-set/registration-results/affine+bspline/1116/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1104/wm -tp ./test-set/registration-results/affine+bspline/1104/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1125/wm -tp ./test-set/registration-results/affine+bspline/1125/TransformParameters.1.txt
+transformix -in ./our_atlas/WM_probs.nii -out ./test-set/registration-results/our_atlases/1107/wm -tp ./test-set/registration-results/affine+bspline/1107/TransformParameters.1.txt
