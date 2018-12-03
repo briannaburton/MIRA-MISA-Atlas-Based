@@ -1,5 +1,8 @@
 // Description: bspline, LMI, SGD
 
+
+// try this
+//  "(AutomaticTransformInitialization "true")"
 //ImageTypes
 (FixedInternalImagePixelType "float")
 (FixedImageDimension 3)
