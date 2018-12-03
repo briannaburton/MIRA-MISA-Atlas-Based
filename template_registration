@@ -1,5 +1,5 @@
 #!/bin/bash
-#export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
 
 # elastix -f ./test-set/testing-images/1113.nii.gz -m ./atlas/mean_im.nii -out ./test-set/registration-results/affine+bspline/1113 -p ./training-set/par0000affine.txt -p ./training-set/par0000bspline.txt
 # elastix -f ./test-set/testing-images/1110.nii.gz -m ./atlas/mean_im.nii -out ./test-set/registration-results/affine+bspline/1110 -p ./training-set/par0000affine.txt -p ./training-set/par0000bspline.txt
