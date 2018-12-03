@@ -1,6 +1,6 @@
 (Transform "AffineTransform")
 (NumberOfParameters 12)
-(TransformParameters 1.090914 0.027691 -0.008808 -0.002746 1.004263 -0.106213 0.022262 0.097979 1.073786 28.058072 41.013565 26.393269)
+(TransformParameters 1.121513 0.027937 -0.007329 0.011228 0.987676 -0.179608 0.022249 0.140012 1.039485 25.638970 39.091300 27.821531)
 (InitialTransformParametersFileName "NoInitialTransform")
 (HowToCombineTransforms "Compose")
 
@@ -17,7 +17,7 @@
 (UseDirectionCosines "true")
 
 // AdvancedAffineTransform specific
-(CenterOfRotationPoint 0.0000000000 -25.5000000000 -25.5000000000)
+(CenterOfRotationPoint -27.0000000000 -24.0000000000 -21.5000000000)
 
 // ResampleInterpolator specific
 (ResampleInterpolator "FinalBSplineInterpolator")
@@ -26,6 +26,6 @@
 // Resampler specific
 (Resampler "DefaultResampler")
 (DefaultPixelValue 0.000000)
-(ResultImageFormat "nii")
-(ResultImagePixelType "short")
+(ResultImageFormat "nii.gz")
+(ResultImagePixelType "float")
 (CompressResultImage "true")
