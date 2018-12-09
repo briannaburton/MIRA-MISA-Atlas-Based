@@ -1,7 +1,7 @@
 #!/bin/bash
-export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
+#export DYLD_LIBRARY_PATH=/Applications/elastix_macosx64_v4.8/lib:$DYLD_LIBRARY_PATH
 
-
+# create directories for storing results
 mkdir ./registration-results/affine+bspline/1006
 mkdir ./registration-results/affine+bspline/1007
 mkdir ./registration-results/affine+bspline/1008
@@ -14,6 +14,7 @@ mkdir ./registration-results/affine+bspline/1014
 mkdir ./registration-results/affine+bspline/1015
 mkdir ./registration-results/affine+bspline/1017
 mkdir ./registration-results/affine+bspline/1036
+
 
 elastix -f 1000.nii.gz -m ./training-images/1006.nii.gz -out ./registration-results/affine+bspline/1006 -p par0000affine.txt -p par0000bspline.txt
 
